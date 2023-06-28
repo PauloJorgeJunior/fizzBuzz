@@ -12,4 +12,8 @@ describe('Curso Scrum - Fizz Buzz', () => {
     it('Retorna Buzz se o numero for multiplo de 5', () =>{
         expect(fizzBuzz(5)).toEqual('Buzz');
     })
+
+    it('Retorna FizzBuzz se o numero for multiplo de 3 e de 5', () =>{
+        expect(fizzBuzz(15)).toEqual('FizzBuzz');
+    })
 })
